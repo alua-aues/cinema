@@ -1,0 +1,138 @@
+header {
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+    }
+    li{
+        padding: 15px 15px;
+    }
+    li:hover{
+        background-color: azure;
+        color: black;
+    }
+
+
+* {box-sizing: border-box;}
+body{margin: 0;}
+div {padding: 3px 0}
+form {
+position: relative;
+width: 100px;
+margin: 0;
+    }
+.d7:after {content:""; clear:both; display:table}
+.d7 form {
+  width: auto;
+  float: right;
+}
+.d7 input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid gray;
+  background: white;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.d7 input:focus {
+  width: 300px;
+}
+.d7 button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+.d7 button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+li{
+  padding: 15px 15px;
+}
+li:hover{
+  background-color: azure;
+  color: black;
+}
+aside {
+  background: #f0f0f0;
+  padding: 20px;
+  width: 200px;
+  float: right;
+  position: absolute;
+  margin: right;
+  margin: 10px 0px 0px 50px;
+  border-radius: 8px;
+ }
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 160px;
+  width: 100%
+  
+  
+} 
+.block {
+  height: 140x;
+  width: 242px;
+  background-color: white;
+  margin: -15px -180px 5px 200px;
+  align-items: center
+  
+
+}
+.left
+{ 
+  float: left; 
+  height: 137x;
+  width: 242px;
+  border-radius: 8px;
+}
+  .text{
+    background-color: orange;
+    text-align:center;
+    color: black;
+    size: 15px;
+}
+
+ footer {
+  width: 100%;
+  display: flex;
+  background-color: rgb(29, 28, 28);
+  color: white;
+  justify-content: space-around; 
+}
+
+.main {
+  float: left; /* Обтекание справа */ 
+  width: 30%; /* Ширина текстового блока */ 
+  text-align: center; /* Выравнивание по правому краю */ 
+ }
+ 
+ .znaki{ 
+  float: center; 
+  height: 50px;
+  width: 170px;
+  margin: 0px 30px 0px -200px;
+  } 
+ 
